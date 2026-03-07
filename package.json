@@ -1,6 +1,6 @@
 {
   "name": "@stegopop/fetch-data-forms",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Instantly turn an HTML form element into an asynchronous Fetch request by adding an attribute.",
   "main": "public/dist/fetch-data-forms.min.js",
   "scripts": {
