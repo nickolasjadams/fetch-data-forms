@@ -2,7 +2,7 @@
   "name": "@stegopop/fetch-data-forms",
   "version": "1.0.1",
   "description": "Instantly turn an HTML form element into an asynchronous Fetch request by adding an attribute.",
-  "main": "dist/fetch-data-forms.min.js",
+  "main": "public/dist/fetch-data-forms.min.js",
   "scripts": {
     "js": "babel public/src/FetchDataForms.js --out-file dist/fetch-data-forms.js",
     "watch": "npm run js -- --watch",
