@@ -32,13 +32,13 @@ Just add the `data-fetch` attribute to any form you'd like to convert.
 With NPM
 
 ```markdown
-npm install @stegopop/data-fetch-forms
+npm install @stegopop/fetch-data-forms
 ```
 
 With a CDN
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@stegopop/data-fetch-forms"></script>
+<script src="https://cdn.jsdelivr.net/npm/@stegopop/fetch-data-forms"></script>
 ```
 
 ## Options
