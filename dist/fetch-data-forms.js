@@ -88,7 +88,12 @@ var FetchDataForms = /*#__PURE__*/function () {
                 window['grecaptcha'].execute(_this.recaptcha.siteKey, {
                   action: 'submit'
                 }).then(function (token) {
-                  data['recaptcha_token'] = token;
+                  // populate the hidden input if it exists
+                  var recaptchaInput = form.querySelector("[name='recaptcha_token']");
+                  if (recaptchaInput) recaptchaInput.value = token;
+
+                  // also put it in the data object
+                  data.set('recaptcha_token', token);
                   _this.sendXhrRequest(form, data, submitter);
                 });
               });
